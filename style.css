@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-image: linear-gradient(to right, white, rgb(222, 123, 222));
+
+}
+
+.nav-logo {
+    height: 55px;
+    width: 55px;
+    margin-left: 10%;
+}
+
+.site {
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar-collapse {
+    margin-left: 34%;
+}
+
+li a {
+    margin: 0px 13px;
+}
+
+.btn-outline-success {
+
+
+    border: 2px solid transparent;
+    /* Make sure to set the border width */
+    border-image: linear-gradient(to right, rgb(15, 15, 209), purple);
+    /* Define the gradient */
+    border-image-slice: 1;
+    /* Ensure the whole border is covered by the gradient */
+    padding: 7px 40px;
+    /* Add padding to create space inside the border */
+    color: black;
+    /* Text color */
+    background-color: transparent;
+    /* Background color */
+    cursor: pointer;
+    /* Cursor style */
+    font-size: 16px;
+    /* Font size */
+    margin-right: 70px;
+    outline: none;
+    /* Remove outline */
+    transition: border-image 0.5s ease;
+}
+
+.main {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.heading-1 {
+    color: rgb(81, 3, 81);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.heading-2 {
+    color: rgb(168, 1, 168);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+p {
+    width: 700px;
+    margin-top: 45px;
+}
+
+.main-img {
+    float: right;
+    margin-top: -100px;
+    margin-right: 53px;
+
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, rgb(54, 54, 229), rgb(147, 40, 147));
+    color: white;
+    margin-top: 24px;
+}
+
+@media (max-width: 1409px) {
+    body {
+        background-image: linear-gradient(to right, white, rgb(222, 123, 222));
+        background-repeat: no-repeat;
+        background-color: rgb(222, 123, 222);
+
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1471px) {
+    .btn-outline-success {
+        padding: 7px 30px; /* Adjust padding for smaller screens */
+        margin-right: 20px; /* Remove right margin for smaller screens */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-logo {
+        margin-left: 5%;
+    }
+
+    .navbar-collapse {
+        margin-left: 0;
+    }
+
+    li a {
+        margin: 0px 7px;
+    }
+
+    .main {
+        margin-top: 20%;
+    }
+
+    .main-img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        width: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .btn-2 {
+        margin-top: 20px;
+    }
+}
